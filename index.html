@@ -1,0 +1,180 @@
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />       
+        <link rel="stylesheet" href="./css/normalize.css" />
+        <link rel="stylesheet" href="./css/all.min.css" />
+        <link rel="stylesheet" href="./css/style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet" />
+        <title>Porsche</title>
+        </head>
+    <body>
+        <span id="up">UP</span>
+<header >
+    <video class="background-video" autoplay muted loop playsinline>
+        <source src="./imags/land.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+    </video>
+    <div class="container">
+        <nav class="nav">
+        <img class="logo" src="./imags/logo.png" alt="Porsche Logo">
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+        <ul  id="menu">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#explore">Explore</a></li>
+            <li><a href="#Models">Models</a></li>
+            <li><a href="#Performance">Performance</a></li>
+            <li><a href="#Gallery">Gallery</a></li>
+            <li><a href="#Contact">Contact</a></li>
+        </ul>
+        </nav>
+
+        <div class="content">
+        <h1 class="reveal">Driven By Dreams</h1>
+        <p class="reveal">The Icon Reimagined</p>
+        <a  href="#explore" class="btn reveal">Explore 911</a>
+        </div>
+    </div>
+</header>
+
+
+<div class="power-section " id="explore">
+    <div class="container">
+        <div class="power-content">
+        <h2 class="reveal">The Power At Your Fingertips.</h2>
+        <p class="reveal">From 0 to 100 km/h in as little as 2.7 seconds. Over 60 years of heritage, redefined for today.</p>
+
+        <div class="power-stats ">
+            <div class="stat-box reveal">
+            <h3>650 hp</h3>
+            <span>Max Horsepower</span>
+            </div>
+            <div class="stat-box reveal">
+            <h3>330 km/h</h3>
+            <span>Top Speed</span>
+            </div>
+            <div class="stat-box reveal">
+            <h3>2.7 s</h3>
+            <span>0–100 km/h</span>
+            </div>
+            <div class="stat-box reveal">
+            <h3>8-Speed</h3>
+            <span>PDK Transmission</span>
+            </div>
+        </div>
+        </div>
+    </div>
+</div>
+
+<!-- Stat Models -->
+
+    <div class="models-section" id="Models">
+    <h2 class="reveal">Choose Your Porsche 911</h2>
+    <div class="models-grid ">
+        
+        <div class="model-card reveal">
+        <img src="./imags/Carrera-GTS-.jpg" alt="911 Carrera">
+        <h3>911 Carrera</h3>
+        <ul>
+            <li>385 hp</li>
+            <li>0–100 km/h: 4.2 s</li>
+            <li>Top Speed: 293 km/h</li>
+            <li>Rear-Wheel Drive</li>
+        </ul>
+        </div>
+
+        <div class="model-card reveal">
+        <img src="./imags/Turbo-S.jpg" alt="911 Turbo S">
+        <h3>911 Turbo S</h3>
+        <ul>
+            <li>650 hp</li>
+            <li>0–100 km/h: 2.7 s</li>
+            <li>Top Speed: 330 km/h</li>
+            <li>All-Wheel Drive</li>
+        </ul>
+        </div>
+        <div class="model-card reveal">
+        <img src="./imags/Targa-4-GTS.jpg" alt="911 Targa 4S">
+        <h3>911 Targa 4S</h3>
+        <ul>
+            <li>450 hp</li>
+            <li>0–100 km/h: 3.8 s</li>
+            <li>Top Speed: 306 km/h</li>
+            <li>All-Wheel Drive</li>
+        </ul>
+        </div>
+    </div>
+</div>
+
+<section class="performance" id="Performance">
+    <div class="performance-content reveal">
+        <div class="performance-text reveal">
+        <h2>Timeless Design. Unmatched Performance.</h2>
+        <p>
+            With a silhouette that's instantly recognizable and engineering that continues to set benchmarks, 
+            the Porsche 911 is more than just a sports car — it’s a legend.  
+            Precision, innovation, and performance come together in a design that evolves with time but stays true to its heritage.
+        </p>
+        </div>
+        <div class="performance-image">
+        <img src="./imags/3.jpg" alt="Porsche 911 Performance">
+        </div>
+    </div>
+</section>
+
+<section class="gallery" id="Gallery">
+    <h2 class="reveal">Porsche 911 Gallery</h2>
+    <div class="gallery-grid">
+    <img class="reveal" src="./imags/1.jpeg" alt="Porsche 911 Front View">
+    <img class="reveal" src="./imags/4.jpeg" alt="Porsche 911 Interior">
+    <img class="reveal" src="./imags/6.jpeg" alt="Porsche 911 Rear">
+    <img class="reveal" src="./imags/7.jpeg" alt="Porsche 911 Night">
+    <img class="reveal" src="./imags/8.jpeg" alt="Porsche 911 Track">
+    <img class="reveal" src="./imags/5.jpeg" alt="Porsche 911 Rear">
+    <img class="reveal" src="./imags/9.jpeg" alt="Porsche 911 Night">
+    <img class="reveal" src="./imags/10.jpeg" alt="Porsche 911 Track">
+    </div>
+</section>
+
+
+<section class="contact" id="Contact">
+    <h2 class="reveal">Contact Us</h2>
+    <p class="reveal">Have questions or want to reserve your Porsche 911? We're here to help.</p>
+    <form class="contact-form ">
+        <input class="reveal" type="text" placeholder="Your Name" required>
+        <input class="reveal" type="email" placeholder="Your Email" required>
+        <input class="reveal" type="tel" placeholder="Your Phone Number" required>
+        <textarea  class="reveal"placeholder="Your Message" rows="5" required></textarea>
+        <button class="reveal" type="submit">Send Message</button>
+    </form>
+</section>
+
+<footer class="footer">
+    <div class="footer-content">
+        <h3>Porsche 911</h3>
+        <p>Experience the legacy of performance, design, and innovation.</p>
+        <ul class="footer-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#models">Models</a></li>
+        <li><a href="#performance">Performance</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="footer-socials">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2025 Porsche. All Rights Reserved.</p>
+    </div>
+</footer>
+
+
+<script src="./javascript/script.js"></script>
+    </body>
+        </html>
