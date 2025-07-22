@@ -136,7 +136,7 @@ nav ul li.active a {
   font-size: 28px;
   color: #fff;
 }
-@media (max-width: 768px) {
+@media (max-width: 932px) {
   #menu-icon,
   nav ul.show {
     display: flex;
